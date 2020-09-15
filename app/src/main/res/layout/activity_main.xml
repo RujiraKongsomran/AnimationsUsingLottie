@@ -9,11 +9,11 @@
     tools:context=".MainActivity">
 
     <com.airbnb.lottie.LottieAnimationView
-        android:layout_width="280dp"
+        android:layout_width="match_parent"
         android:layout_height="280dp"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/delivery_service" />
+        app:lottie_rawRes="@raw/bus_pop" />
 
     <TextView
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
         android:gravity="center"
-        android:text="Lightning Fast Delivery"
+        android:text="Travel With Safety"
         android:textColor="#212121"
         android:textSize="18sp"
         android:textStyle="bold" />
