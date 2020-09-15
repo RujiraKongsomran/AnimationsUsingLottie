@@ -8,19 +8,25 @@
     android:orientation="horizontal"
     tools:context=".MainActivity">
 
-<!--    <com.airbnb.lottie.LottieAnimationView-->
-<!--        android:id="@+id/lottieCheckedDone"-->
-<!--        android:layout_width="150dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        app:lottie_rawRes="@raw/first_checked" />-->
+    <!--    <com.airbnb.lottie.LottieAnimationView-->
+    <!--        android:id="@+id/lottieCheckedDone"-->
+    <!--        android:layout_width="150dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:lottie_rawRes="@raw/first_checked" />-->
 
+    <!--    <com.airbnb.lottie.LottieAnimationView-->
+    <!--        android:id="@+id/lottieSwitchButton"-->
+    <!--        android:layout_width="240dp"-->
+    <!--        android:layout_height="200dp"-->
+    <!--        android:layout_marginStart="10dp"-->
+    <!--        android:layout_marginEnd="10dp"-->
+    <!--        app:lottie_rawRes="@raw/switch_button" />-->
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottieSwitchButton"
-        android:layout_width="240dp"
-        android:layout_height="200dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        app:lottie_rawRes="@raw/switch_button" />
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading_animation" />
 
     <!--    <com.airbnb.lottie.LottieAnimationView-->
     <!--        android:layout_width="280dp"-->

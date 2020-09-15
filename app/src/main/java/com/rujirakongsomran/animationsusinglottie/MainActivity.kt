@@ -8,7 +8,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
 //    var isCheckedDone = false
-    var isSwitchOn = false
+//    var isSwitchOn = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -24,18 +24,18 @@ class MainActivity : AppCompatActivity() {
 //                isCheckedDone = true
 //            }
 //        }
-        lottieSwitchButton.setOnClickListener {
-            if (isSwitchOn) {
-                lottieSwitchButton.setMinAndMaxProgress(0.5f, 1.0f)
-                lottieSwitchButton.playAnimation()
-                isSwitchOn = false
-            } else {
-                lottieSwitchButton.setMinAndMaxProgress(0.0f, 0.5f)
-                lottieSwitchButton.playAnimation()
-                isSwitchOn = true
-            }
-
-        }
+//        lottieSwitchButton.setOnClickListener {
+//            if (isSwitchOn) {
+//                lottieSwitchButton.setMinAndMaxProgress(0.5f, 1.0f)
+//                lottieSwitchButton.playAnimation()
+//                isSwitchOn = false
+//            } else {
+//                lottieSwitchButton.setMinAndMaxProgress(0.0f, 0.5f)
+//                lottieSwitchButton.playAnimation()
+//                isSwitchOn = true
+//            }
+//
+//        }
 
     }
 }
